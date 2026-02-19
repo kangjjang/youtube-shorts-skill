@@ -28,13 +28,22 @@ metadata:
 - "[주제명] 숏츠 만들어줘"
 - "트렌드만 수집해줘"
 
+## 설치
+
+소스코드 전체가 필요합니다. GitHub에서 클론하세요:
+```bash
+git clone https://github.com/kangjjang/youtube-shorts-skill.git
+cd youtube-shorts-skill
+bash scripts/setup.sh
+```
+
 ## 실행 방법
 
-스킬 루트 디렉토리: `${CLAUDE_PLUGIN_ROOT}` (Claude Code) 또는 현재 스킬 디렉토리
+스킬 루트 디렉토리: `${CLAUDE_PLUGIN_ROOT}` (Claude Code) 또는 클론한 레포 디렉토리
 
 ### 1. 환경 확인
 ```bash
-cd ${CLAUDE_PLUGIN_ROOT:-.}
+cd ${CLAUDE_PLUGIN_ROOT:-youtube-shorts-skill}
 source .venv/bin/activate 2>/dev/null || { python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt; }
 ```
 
