@@ -1,0 +1,21 @@
+{
+  "name": "youtube-shorts-marketplace",
+  "owner": {
+    "name": "kangjjang"
+  },
+  "metadata": {
+    "description": "YouTube Shorts 자동 생성 플러그인 마켓플레이스",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "youtube-shorts",
+      "source": ".",
+      "description": "AI/DevOps 유튜브 숏츠 자동 생성 — Gemini + Veo + TTS + Remotion",
+      "version": "2.0.0",
+      "author": {
+        "name": "kangjjang"
+      }
+    }
+  ]
+}

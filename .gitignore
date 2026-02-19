@@ -1,0 +1,21 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credentials
+credentials/*.json
+!credentials/.gitkeep
+
+# Outputs
+outputs/
+
+# Node
+remotion/node_modules/
+remotion/.cache/
+
+# OS
+.DS_Store
+*.swp
