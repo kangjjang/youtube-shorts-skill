@@ -7,7 +7,7 @@
     "render": "remotion render src/Root.tsx ShortsVideo out/video.mp4"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.261",
+    "@remotion/cli": "4.0.424",
     "@remotion/google-fonts": "4.0.261",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
